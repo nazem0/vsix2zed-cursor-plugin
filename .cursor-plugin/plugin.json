@@ -1,0 +1,23 @@
+{
+  "name": "vsix2zed",
+  "displayName": "Vsix2Zed",
+  "version": "0.1.0",
+  "description": "Transform VS Code .vsix extensions into Zed extensions. Deterministic convert + Cursor host-agent remakes. Bundles the converter CLI; optional REA MCP for reverse engineering. No separate AI API key.",
+  "author": {
+    "name": "nazem0"
+  },
+  "homepage": "https://github.com/nazem0/vsix2zed-cursor-plugin",
+  "repository": "https://github.com/nazem0/vsix2zed-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "zed",
+    "vscode",
+    "vsix",
+    "extension",
+    "mcp",
+    "lsp",
+    "rea"
+  ],
+  "category": "developer-tools",
+  "tags": ["zed", "vscode", "transform"]
+}

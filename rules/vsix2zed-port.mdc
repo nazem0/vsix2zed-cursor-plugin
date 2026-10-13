@@ -1,0 +1,13 @@
+---
+description: VSIX→Zed porting rules when Vsix2Zed plugin is installed
+alwaysApply: false
+globs: "**/extension.toml,**/src/lib.rs,**/GAP_REPORT.md,**/server/**/*.mjs"
+---
+
+# VSIX → Zed
+
+- Prefer Vsix2Zed MCP (`analyze_vsix` → `convert_vsix`) before hand-editing.
+- Zed does not run VS Code extension host JS.
+- Packaged files are allowlisted; sidecars go in `extensions/work/<id>` at runtime.
+- Use REA MCP (`rea`) for opaque binaries/bundles; remake for Zed, don't transpile `vscode.*`.
+- Official docs: https://zed.dev/docs/extensions/developing-extensions

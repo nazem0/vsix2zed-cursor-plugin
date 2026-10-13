@@ -1,0 +1,10 @@
+mcp/node_modules/
+dotnet/**/bin/
+dotnet/**/obj/
+_smoke-out/
+*.user
+.DS_Store
+Thumbs.db
+*.pdb
+# Platform-specific publish output — install.ps1 / install.sh rebuilds bin/
+/bin/

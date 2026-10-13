@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "vsix2zed": {
+      "command": "node",
+      "args": ["${CURSOR_PLUGIN_ROOT}/mcp/server.mjs"],
+      "env": {
+        "VSIX2ZED_PLUGIN_ROOT": "${CURSOR_PLUGIN_ROOT}"
+      }
+    },
+    "rea": {
+      "command": "npx",
+      "args": ["-y", "rea-agents@6.4.0"]
+    }
+  }
+}

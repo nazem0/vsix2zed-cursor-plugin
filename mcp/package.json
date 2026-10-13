@@ -1,0 +1,10 @@
+{
+  "name": "vsix2zed-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for Vsix2Zed (ships inside vsix2zed-cursor-plugin)",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
